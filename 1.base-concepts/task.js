@@ -3,11 +3,11 @@
 const solveEquation = (a, b, c) => {
   const discriminant = ((b ** 2) - 4 * a * c);
   if (discriminant < 0) {
-    return array = [];
+    return [];
   } else if (discriminant === 0) {
-    return array = [-b / (2 * a)];
+    return [-b / (2 * a)];
   } else {
-    return array = [(-b + Math.sqrt(discriminant)) / (2 * a),
+    return [(-b + Math.sqrt(discriminant)) / (2 * a),
     (-b - Math.sqrt(discriminant)) / (2 * a)];
   }
 }
@@ -16,7 +16,7 @@ const solveEquation = (a, b, c) => {
 //testCase(15, 345, 6);
 
 const calculateTotalMortgage = (percent, constribution, amount, countMonths) => {
-  if (isNaN(persen) === true ||
+  if (isNaN(persent) === true ||
     isNaN(constribution) === true ||
     isNaN(amount) === true ||
     isNaN(countMonths) === true)
