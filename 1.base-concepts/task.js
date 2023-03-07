@@ -16,7 +16,7 @@ const solveEquation = (a, b, c) => {
 //testCase(15, 345, 6);
 
 const calculateTotalMortgage = (percent, constribution, amount, countMonths) => {
-  if (isNaN(persent) === true ||
+  if (isNaN(percent) === true ||
     isNaN(constribution) === true ||
     isNaN(amount) === true ||
     isNaN(countMonths) === true)
